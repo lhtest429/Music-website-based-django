@@ -1,0 +1,58 @@
+{# 分类 #}
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/mv.css' %}">
+
+    <div id="bk_songlist">
+        <p>数据来自<a href="https://music.mli.im/mv.web#/" target="_blank">墨灵音乐</a></p>
+    </div>
+
+    <div class="text_box">
+        <span id="text1">MV</span>
+        <span id="text2">80歌单</span>
+        <span id="text3">播放：<span id="text4">3807479296</span>次</span>
+    </div>
+
+    <ul id="mv_list">
+        {% for mv_info in mv_infos %}
+            <li class="mv">
+                <a class="mv_link" href="{% url 'mv_detail' mv_id=mv_info.mv_id %}">
+                    <div class="mv_pic" style="background: url('{{ mv_info.mv_pic }}') center/100% 100% no-repeat"></div>
+                    <div class="play_count">{{ mv_info.playCount }}</div>
+                    <div class="mv_title">
+                        <p class="mv_name">{{ mv_info.mv_name }}</p>
+                        <p class="mv_author">by {{ mv_info.mv_author }}</p>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+
+    </ul>
+
+
+    <div id="pages" class="text-center" >
+        <nav>
+            <ul class="pagination">
+                <li class="step-links">
+                    {% if mv_infos.has_previous %}
+                        <a class='active' href="?page={{ mv_infos.previous_page_number }}">上一页</a>
+                    {% endif %}
+
+                    <span class="current">
+{#                      Page {{ mv_infos.number }} of {{ mv_infos.paginator.num_pages }}</span>#}
+                        &nbsp;&nbsp;第 {{ mv_infos.number }} 页&nbsp;&nbsp;
+                    </span>
+
+                    {% if mv_infos.has_next %}
+                        <a class='active' href="?page={{ mv_infos.next_page_number }}">下一页 </a>
+                        &nbsp;&nbsp;共 {{ mv_infos.paginator.num_pages }}页
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+{% endblock %}

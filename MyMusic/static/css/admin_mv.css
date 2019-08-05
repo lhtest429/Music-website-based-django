@@ -1,0 +1,98 @@
+.tag{
+    height: 80px;
+    width: 100%;
+    /*background-color: #31c37c;*/
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+
+.tag .mv_pic{
+    display: inline-block;
+    width: 150px;
+    height: 80px;
+    margin-left: 100px;
+    background-color: #A9A9A9;
+}
+
+.tag p{
+    /*height: 100%;*/
+    display: inline-block;
+    margin-left: 30px;
+    /*background-color: #4183c4;*/
+    position: absolute;
+    top: 25px;
+}
+
+/*.mv_id{}*/
+
+.mv_name{
+    width: 200px;
+    left: 450px;
+    /* 处理溢出 */
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+}
+
+.mv_author{
+    width: 180px;
+    right: 450px;
+    /* 处理溢出 */
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+}
+
+.mv_time{
+    right: 250px;
+}
+
+.tag p span{
+    font-size: 20px;
+    color: #c20c0c;
+}
+
+#option{
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#option input{
+    width: 100px;
+    height: 35px;
+    background-color: #f1f3f4;
+    border: none;
+}
+
+#option:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+
+
+/* 分页 */
+#pages{
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    /*background-color: #A9A9A9;*/
+}
+
+.step-links a{
+    /*width: auto;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: 	#CFCFCF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.step-links a:hover{
+    color: #c20c0c;
+}

@@ -1,0 +1,3131 @@
+[
+  {
+    "result": {
+      "mvCount": 342,
+      "mvs": [
+        {
+          "id": 10866251,
+          "cover": "https://p4.music.126.net/x3juaZgk33hZfmp9UqnZCQ==/109951164031656279.jpg",
+          "name": "ME!",
+          "playCount": 3456870,
+          "briefDesc": "霉霉Taylor Swift全新单曲《ME!》MV公开！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 248000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 28076769,
+              "name": "Brendon Urie",
+              "alias": [],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 503185,
+          "cover": "https://p4.music.126.net/mGqjCe2UhHt7wgOCY9UZ1w==/3295236351119274.jpg",
+          "name": "Love Story",
+          "playCount": 11859190,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 236000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5647227,
+          "cover": "https://p4.music.126.net/_n5bnOjfCWI5USfGE8cerg==/109951163018611090.jpg",
+          "name": "Look What You Made Me Do",
+          "playCount": 26723152,
+          "briefDesc": "暗黑Taylor惊艳上线",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 256000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10866259,
+          "cover": "https://p4.music.126.net/aIuqZhZ71PIzgrtjS1rrKg==/109951164026234262.jpg",
+          "name": "Taylor Swift携新单独家问候云村村民",
+          "playCount": 1087303,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 16000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 361153,
+          "cover": "https://p4.music.126.net/7a9c_WPNFe3M3jQhB2VqjQ==/6666339000305744.jpg",
+          "name": "Blank Space",
+          "playCount": 16825361,
+          "briefDesc": "Taylor Swift出村二单Blank Space",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 273000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10864907,
+          "cover": "https://p3.music.126.net/D_Fx9aWYG168iC1qIP_bwQ==/109951164016997074.jpg",
+          "name": "Taylor",
+          "playCount": 28571,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Wiz Khalifa",
+          "artistId": 46006,
+          "duration": 160000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 46006,
+              "name": "Wiz Khalifa",
+              "alias": [
+                "维兹.卡利法",
+                "Cameron Jibril Thomaz",
+                "卡梅伦.贾布里勒.托马斯"
+              ],
+              "transNames": [
+                "维兹.卡利法"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 2655,
+          "cover": "https://p4.music.126.net/lzWAPYJZXoncLaZtW1AgJQ==/109951163509451162.jpg",
+          "name": "I Knew You Were Trouble.",
+          "playCount": 9215054,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 357000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5691016,
+          "cover": "https://p3.music.126.net/8DF60o7DOIkwc8diu058JQ==/109951163051049873.jpg",
+          "name": "... Ready For It?",
+          "playCount": 9142522,
+          "briefDesc": "霉霉自带“电”霸气出场，炫酷十足！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 211000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5855046,
+          "cover": "https://p3.music.126.net/OFaVEhK9xswIIDkKA1fDOw==/109951163185884402.jpg",
+          "name": "Delicate",
+          "playCount": 4792203,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 234000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10866252,
+          "cover": "https://p4.music.126.net/Cs2tJQLTPZCFnuLxu0V5Mw==/109951164026138834.jpg",
+          "name": "泰勒·斯威夫特携新单问候中国乐迷",
+          "playCount": 542192,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 4000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 113112,
+          "cover": "https://p3.music.126.net/iuPnj5tvXtUNlM6MDuJdkA==/5971447650451640.jpg",
+          "name": "Red",
+          "playCount": 6245242,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 235000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 320005,
+          "cover": "https://p4.music.126.net/j9HX911eYF_iBqWblEA-1g==/8886252976032143.jpg",
+          "name": "Shake It Off",
+          "playCount": 7025871,
+          "briefDesc": "你们爱的“霉霉”告别“乡村”转型了",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 242000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 466904,
+          "cover": "https://p4.music.126.net/tOGPo9vXKZpWOsHT6whBZA==/3280942697776895.jpg",
+          "name": "Wildest Dreams",
+          "playCount": 6467617,
+          "briefDesc": "远赴非洲取景 演绎炙热爱情",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 235000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5466,
+          "cover": "https://p3.music.126.net/5W4EMZf3qjTznXl1CE7BPg==/3236962232888947.jpg",
+          "name": "Safe And Sound",
+          "playCount": 5482017,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 233000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5809022,
+          "cover": "https://p4.music.126.net/-FYKpI7kuD9lguYPy8iHsg==/109951163106264211.jpg",
+          "name": "End Game",
+          "playCount": 5022088,
+          "briefDesc": "Taylor Swift新专辑第三支MV《End Game》公开！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 250000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 33184,
+              "name": "Ed Sheeran",
+              "alias": [
+                "黄老板"
+              ],
+              "transNames": null
+            },
+            {
+              "id": 33794,
+              "name": "Future",
+              "alias": [
+                "Nayvadius Wilburn Cash"
+              ],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 38749,
+          "cover": "https://p3.music.126.net/HVBVADsddXyJ2r3UjgpmSw==/493680720904747.jpg",
+          "name": "You Belong With Me",
+          "playCount": 6880392,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 228000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5776032,
+          "cover": "https://p4.music.126.net/tOK9V95ojQDP8BFS7yp0vQ==/109951163085245958.jpg",
+          "name": "...Ready For It? (BloodPop® Remix)",
+          "playCount": 2922221,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 192000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 12567543,
+              "name": "BloodPop",
+              "alias": [
+                "Michael Tucker",
+                "BloodPop®"
+              ],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5438013,
+          "cover": "https://p3.music.126.net/MGLgZBEHg1oUUsR8O2NoCQ==/18673005976866216.jpg",
+          "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+          "playCount": 11999756,
+          "briefDesc": "霉霉和美渣亲自出镜演绎",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 257000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 1108049,
+              "name": "ZAYN",
+              "alias": [
+                "Zayn Malik",
+                "泽恩·马利克",
+                "美渣"
+              ],
+              "transNames": [
+                "泽恩·马利克"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32623,
+          "cover": "https://p4.music.126.net/0_PBvir_OiPxopRRJPqZJQ==/6029721766723667.jpg",
+          "name": "22",
+          "playCount": 4266984,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 243000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 370108,
+          "cover": "https://p4.music.126.net/JmE9rGDkPUNkw3jxmNdOrg==/2532175280692519.jpg",
+          "name": " Welcome To New York (The Thanksgiving Day Parade)",
+          "playCount": 5371325,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 226000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        }
+      ]
+    },
+    "code": 200
+  },
+  {
+    "result": {
+      "mvCount": 342,
+      "mvs": [
+        {
+          "id": 148090,
+          "cover": "https://p4.music.126.net/ABNRk06WsqU7eD-qb-1Wow==/6036318836490375.jpg",
+          "name": "We Are Never Ever Getting Back Together",
+          "playCount": 3584662,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 198000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 415232,
+          "cover": "https://p4.music.126.net/UqxiDCwkaZRuLmaihvlbBw==/7921981278936642.jpg",
+          "name": "Bad Blood",
+          "playCount": 4737637,
+          "briefDesc": "霉霉带你看史上最大牌云集MV",
+          "desc": null,
+          "artistName": "Kendrick Lamar",
+          "artistId": 37995,
+          "duration": 245000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 37995,
+              "name": "Kendrick Lamar",
+              "alias": [
+                "喇嘛"
+              ],
+              "transNames": null
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 372204,
+          "cover": "https://p4.music.126.net/a2yPM-Zp42m3GA5HUfGwcQ==/2528876746101202.jpg",
+          "name": "Style (Victoria's Secret Fashion Show 2014) ",
+          "playCount": 3095863,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 340000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": [
+            "维多利亚的秘密内衣秀"
+          ]
+        },
+        {
+          "id": 5952086,
+          "cover": "https://p4.music.126.net/zBQuI0f5jkWDMG20xw1BzA==/109951163343657773.jpg",
+          "name": "Babe",
+          "playCount": 1186152,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Sugarland",
+          "artistId": 42964,
+          "duration": 279000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 42964,
+              "name": "Sugarland",
+              "alias": [],
+              "transNames": null
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32561,
+          "cover": "https://p4.music.126.net/bpJbwHronjqR9ehNJHDV_Q==/6028622255095887.jpg",
+          "name": "Back To December",
+          "playCount": 2107351,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 315000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5297236,
+          "cover": "https://p4.music.126.net/UAwz50aN0jGA6rqFnzxhAw==/1386484164740238.jpg",
+          "name": "Wildest Dreams Enchanted ",
+          "playCount": 1570392,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 396000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5267131,
+          "cover": "https://p3.music.126.net/eLn5ASSSJqWbdn8AE1d4Uw==/3423879211390323.jpg",
+          "name": "Out Of The Woods",
+          "playCount": 4075991,
+          "briefDesc": "每支MV都是一部奇幻大片！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 257000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32576,
+          "cover": "https://p4.music.126.net/hmNA5W7SYadhIgBqclH77A==/5980243743473818.jpg",
+          "name": "Sparks Fly",
+          "playCount": 2490351,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 270000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 2648,
+          "cover": "https://p3.music.126.net/E-vDbV5GQ3PSni9_awsx_w==/2534374303709555.jpg",
+          "name": "Begin Again",
+          "playCount": 3651262,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 250000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10761107,
+          "cover": "https://p3.music.126.net/ntGqBQE2wo6K2upHjTwbAw==/109951163509211434.jpg",
+          "name": "Swimming Pool",
+          "playCount": 8838,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor",
+          "artistId": 12095336,
+          "duration": 230000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 12095336,
+              "name": "Taylor",
+              "alias": [
+                "테일러",
+                "LEE, MIN HYUCK"
+              ],
+              "transNames": [
+                "테일러 "
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 376359,
+          "cover": "https://p3.music.126.net/pjO2QGgOV01ik1jZ3aSJCQ==/6655343884395615.jpg",
+          "name": "Welcome To New York/Shake It Off (New Year's Rockin' Eve 2015)",
+          "playCount": 794081,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 492000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5305406,
+          "cover": "https://p3.music.126.net/MU4zyPVPWwXQ2PLQoAHjsA==/1389782701133799.jpg",
+          "name": "New Romantics（巡演版）",
+          "playCount": 2498880,
+          "briefDesc": "巡演版MV惊喜上线",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 263000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 372207,
+          "cover": "https://p4.music.126.net/_tgsmxNG3jDt-o03vVfx1g==/2543170397226897.jpg",
+          "name": "Blank Space (Victoria's Secret Fashion Show 2014) ",
+          "playCount": 1852947,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 270000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": [
+            "维多利亚的秘密内衣秀"
+          ]
+        },
+        {
+          "id": 5410071,
+          "cover": "https://p3.music.126.net/f6R387zJumuqGG9elIWR6g==/3402988508153597.jpg",
+          "name": "Clean",
+          "playCount": 1982355,
+          "briefDesc": "霉霉《Clean》巡演背屏版MV美如画",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 290000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 355082,
+          "cover": "https://p4.music.126.net/ghQ4coy9iOj2o-TZjG0XLg==/6628955604841695.jpg",
+          "name": "TSwift On The Voice (Promo) ",
+          "playCount": 424308,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 131000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5924072,
+          "cover": "https://p4.music.126.net/kdZLJGbXpSy8DygJ7n5YGg==/109951163321071971.jpg",
+          "name": "Gorgeous (Live at The Biggest Weekend)",
+          "playCount": 798969,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 311000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10865638,
+          "cover": "https://p3.music.126.net/Wa2m4Nx3gX_zOlENALg5Fw==/109951164036911905.jpg",
+          "name": "ME! Behind The Scenes: The Story of Benjamin Button",
+          "playCount": 77551,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 189000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10849496,
+          "cover": "https://p4.music.126.net/TzKp_9XyGcCItbH4JL38uA==/109951163803512894.jpg",
+          "name": "Better Man (Live at The BlueBird Cafe)",
+          "playCount": 111575,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 495000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 422357,
+          "cover": "https://p3.music.126.net/W9N1ESrrNT_wY_Hg4v21ng==/7938473953032432.jpg",
+          "name": "I  Knew You Were Trouble(2013维多利亚的秘密秀现场)",
+          "playCount": 1852998,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 272000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 384636,
+          "cover": "https://p4.music.126.net/SGhMbKX8mumkonIYJhguhQ==/7913185185367573.jpg",
+          "name": "Style",
+          "playCount": 2201610,
+          "briefDesc": "霉霉与男主上演裸身吻戏 唯美梦幻",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 243000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        }
+      ]
+    },
+    "code": 200
+  },
+  {
+    "result": {
+      "mvCount": 342,
+      "mvs": [
+        {
+          "id": 2680,
+          "cover": "https://p4.music.126.net/4opRq7Ng2lB5PQKSe3V2KA==/6064906138812471.jpg",
+          "name": "Mean",
+          "playCount": 2037733,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 243076,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 334124,
+          "cover": "https://p3.music.126.net/JLJKkwZUtKoPXYbba6q7Ag==/6655343883188028.jpg",
+          "name": "Two Is Better Than One",
+          "playCount": 522724,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Boys Like Girls",
+          "artistId": 88161,
+          "duration": 242000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 88161,
+              "name": "Boys Like Girls",
+              "alias": [],
+              "transNames": null
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32574,
+          "cover": "https://p4.music.126.net/ds3HAiQUjDfTndh6n0kj_g==/6062707115556967.jpg",
+          "name": "Mine",
+          "playCount": 1119652,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 235000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5910166,
+          "cover": "https://p3.music.126.net/odtH3aEZhx5G1e5EgHTaeg==/109951163301255304.jpg",
+          "name": "Delicate (Vertical Video)",
+          "playCount": 857809,
+          "briefDesc": "霉霉新单官方竖版MV！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 234000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10782460,
+          "cover": "https://p4.music.126.net/mRIl4z_KkXdXituC3pqt3Q==/109951163724108709.jpg",
+          "name": "reputation Stadium Tour (预告)",
+          "playCount": 169626,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 82000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 148053,
+          "cover": "https://p3.music.126.net/pSuWBT2mNQ6r5BzNaiB1Ig==/5987940324868230.jpg",
+          "name": "Everything Has Changed",
+          "playCount": 1195144,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 252004,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 351234,
+          "cover": "https://p3.music.126.net/BxlXD8AtQd_d_BtZHkwuXg==/3228166139232136.jpg",
+          "name": "Taylor Swift Live @ iHeart Radio",
+          "playCount": 1097734,
+          "briefDesc": "霉霉新专辑iHeart Radio演唱会超清首播",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 1646000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10731057,
+          "cover": "https://p4.music.126.net/HdJsdFUJoW83aiM339A4Bg==/109951163375203599.jpg",
+          "name": "Angels (Live)",
+          "playCount": 228434,
+          "briefDesc": "Taylor Swift与Robbie Williams同台表演！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 95000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 41928,
+              "name": "Robbie Williams",
+              "alias": [
+                "罗比.威廉姆斯",
+                "\"坏小子\"",
+                "坏小子"
+              ],
+              "transNames": [
+                "罗比.威廉姆斯"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 473021,
+          "cover": "https://p4.music.126.net/8rgLVJOjB4bDd8tF5kC2hQ==/7942872001368628.jpg",
+          "name": "Red (live @CMA Award)",
+          "playCount": 579560,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 257000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 46486,
+              "name": "Alison Krauss",
+              "alias": [
+                "爱丽森-克劳斯"
+              ],
+              "transNames": [
+                "爱丽森-克劳斯"
+              ]
+            },
+            {
+              "id": 33157,
+              "name": "Edgar Meyer",
+              "alias": [],
+              "transNames": null
+            },
+            {
+              "id": 32972,
+              "name": "Eric Darken",
+              "alias": [],
+              "transNames": null
+            },
+            {
+              "id": 43234,
+              "name": "Sam Bush",
+              "alias": [],
+              "transNames": null
+            },
+            {
+              "id": 45635,
+              "name": "Vince Gill",
+              "alias": null,
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 2719,
+          "cover": "https://p3.music.126.net/rRZbzJ8MerhzrHzfkjRTvw==/5937362790056183.jpg",
+          "name": "Long Live",
+          "playCount": 963116,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 318000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 418045,
+          "cover": "https://p4.music.126.net/7EG1gTwhyW2RIO9BF91Ebw==/7914284697586125.jpg",
+          "name": "Love Story (Radio 1's Big Weekend 2015)",
+          "playCount": 790876,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 274000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 357101,
+          "cover": "https://p4.music.126.net/LpiIRI_wLj1gTE__M4fe9g==/6671836558407669.jpg",
+          "name": "Welcome To New York (David Letterman) ",
+          "playCount": 314739,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 274000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 384758,
+          "cover": "https://p3.music.126.net/pyBvGMnhQSVXbgwFvThS1g==/7774646720253560.jpg",
+          "name": "Blank Space（2015全英音乐奖现场表演）",
+          "playCount": 464021,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 252000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 22009,
+          "cover": "https://p4.music.126.net/X02bP58Dc4_CVKo4fCU8Jw==/2305675983447210.jpg",
+          "name": "Highway Don't Care",
+          "playCount": 789506,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Tim McGraw",
+          "artistId": 44312,
+          "duration": 330000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44312,
+              "name": "Tim McGraw",
+              "alias": [
+                "迪姆.麦克格朗"
+              ],
+              "transNames": [
+                "迪姆.麦克格朗"
+              ]
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 37525,
+              "name": "Keith Urban",
+              "alias": [
+                "凯斯.厄本"
+              ],
+              "transNames": [
+                "凯斯.厄本"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5669082,
+          "cover": "https://p4.music.126.net/5Ocmi5B7mpqdy72XIMVc6w==/109951163031125000.jpg",
+          "name": "Look What You Made Me Do - The Birdcage ",
+          "playCount": 748761,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 328000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 463728,
+          "cover": "https://p3.music.126.net/Icr2KTEp1LPSIoNreKLYhA==/7791139395551274.jpg",
+          "name": "We Are Never Ever Getting Back Together (Live Summertime Ball 2013) ",
+          "playCount": 167097,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 219000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5452054,
+          "cover": "https://p3.music.126.net/hY76cr4yxG2lHd4RVkc0fA==/19096317951230725.jpg",
+          "name": "Super Saturday Night (超级碗预热演唱会Part1)",
+          "playCount": 1020596,
+          "briefDesc": "霉霉超级碗预热演唱会演绎多首热单",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 971000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 382758,
+          "cover": "https://p3.music.126.net/bV_6wGJ_XTc4-Bb5osGQ_A==/7873602766692542.jpg",
+          "name": " All Too Well (Live at Grammy Awards 2014)",
+          "playCount": 490454,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 345000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5670096,
+          "cover": "https://p4.music.126.net/8cXaHQLemvn58ojVR_vMRg==/109951163031120214.jpg",
+          "name": "Look What You Made Me Do - Zombie Transformation",
+          "playCount": 692216,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 330000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5670099,
+          "cover": "https://p3.music.126.net/OQS1AQILVf4KI1ZoV2_ITg==/109951163031117424.jpg",
+          "name": "Look What You Made Me Do- Taylor Mountain",
+          "playCount": 886244,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 425000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        }
+      ]
+    },
+    "code": 200
+  },
+  {
+    "result": {
+      "mvCount": 342,
+      "mvs": [
+        {
+          "id": 5771027,
+          "cover": "https://p3.music.126.net/78OHIdzogQeunBJwi2PEig==/109951163081230141.jpg",
+          "name": "Gorgeous (Live At Capital’s Jingle Bell Ball 2017)",
+          "playCount": 939168,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 245000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5771028,
+          "cover": "https://p4.music.126.net/wC81z78Kd8ZA4gWg3eu-QQ==/109951163081229746.jpg",
+          "name": "Look What You Made Me Do (Live At Capital’s Jingle Bell Ball 2017)",
+          "playCount": 565140,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 292000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 37109,
+          "cover": "https://p3.music.126.net/F1FBij1EKbW2gAqUOzoMEA==/5975845696962713.jpg",
+          "name": "Fearless",
+          "playCount": 581857,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 250000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 505084,
+          "cover": "https://p3.music.126.net/pVUvBMFbOARPWF2_S6bWaQ==/3395291908527347.jpg",
+          "name": "Dear John (Live on Speak Now World Tour 2011)",
+          "playCount": 333186,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 405000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 366103,
+          "cover": "https://p3.music.126.net/xRV_dcMvFXkjBaq1BKEolw==/3240260768303225.jpg",
+          "name": "Blank Space (The Voice 2014)",
+          "playCount": 281399,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 379000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 325217,
+          "cover": "https://p4.music.126.net/qz2xhdUf3HNnif2ZO2J3gQ==/8984109510625956.jpg",
+          "name": "Tim McGraw",
+          "playCount": 344020,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 231000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5293221,
+          "cover": "https://p4.music.126.net/TKyeLqZWtyPpLEn1gGLG_A==/1413971955085318.jpg",
+          "name": "Enchanted (Speak Now World Tour Live Concert)",
+          "playCount": 620830,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 542000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10771084,
+          "cover": "https://p4.music.126.net/yPhZ1kfMoW7dpcjTi4UeEA==/109951163523444710.jpg",
+          "name": " Tim McGraw (Live at reputation stadium tour)",
+          "playCount": 61891,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 270000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5566263,
+          "cover": "https://p3.music.126.net/AV-ud8pDcLuh7Q9DHSDDvg==/19041342370019223.jpg",
+          "name": "Enchanted / Wildest Dreams (Live @ 2016 F1 Concert)",
+          "playCount": 647104,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 390000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 425803,
+          "cover": "https://p3.music.126.net/4BkjErA1KAeK4iQ8DcgCrQ==/7735064302387385.jpg",
+          "name": "Both of Us",
+          "playCount": 425342,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "B.o.B",
+          "artistId": 129271,
+          "duration": 220000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 129271,
+              "name": "B.o.B",
+              "alias": [
+                "Bob"
+              ],
+              "transNames": null
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 37897,
+          "cover": "https://p4.music.126.net/D3DB8SMmOq6RxpJxnN09Pw==/5975845696962727.jpg",
+          "name": "Our Song",
+          "playCount": 578690,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 201000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5902362,
+          "cover": "https://p4.music.126.net/0qQ54frZlUmqnFj7Z_Q8YA==/109951163289765509.jpg",
+          "name": "Pop Profiles 3-Taylor Swift 流行档案 3-泰勒·斯威夫特",
+          "playCount": 239786,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 1286000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 14101060,
+              "name": "Pop Profiles",
+              "alias": [],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 418084,
+          "cover": "https://p3.music.126.net/SKiDhTW5nsDkJ2Ktfv8Lsg==/2943392629351458.jpg",
+          "name": "Taylor Swift - Live @ BBC Radio 1's Big Weekend 2015",
+          "playCount": 273732,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 2206000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5771026,
+          "cover": "https://p4.music.126.net/81ZkeQ8Qtrs96Ij6f9ZkMg==/109951163081226270.jpg",
+          "name": "...Ready For It (Live At Capital’s Jingle Bell Ball 2017)",
+          "playCount": 469023,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 260000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5402207,
+          "cover": "https://p3.music.126.net/uR-MVESzhCj_XPc0tfadEg==/3444769945341564.jpg",
+          "name": "How You Get The Girl (Live)",
+          "playCount": 448653,
+          "briefDesc": "霉霉Taylor Swift不插电表演《How You Get The Girl》",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 274000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 202051,
+          "cover": "https://p4.music.126.net/PN1dsXEBgbmp-cHC_gX2RA==/6058309069045937.jpg",
+          "name": "The Last Time",
+          "playCount": 328427,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 195000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10866083,
+          "cover": "https://p4.music.126.net/u6GN1fY8ddplGZBttJOCKg==/109951164021487021.jpg",
+          "name": "Taylor Swift performed at TIME100 Gala",
+          "playCount": 29277,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 120000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5779970,
+          "cover": "https://p4.music.126.net/TaBbnwzFiVYRSlfoXhtKtw==/109951163185910034.jpg",
+          "name": "End Game (Live at iHeartRadio Jingle Ball)",
+          "playCount": 197908,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 261000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 33184,
+              "name": "Ed Sheeran",
+              "alias": [
+                "黄老板"
+              ],
+              "transNames": null
+            },
+            {
+              "id": 33794,
+              "name": "Future",
+              "alias": [
+                "Nayvadius Wilburn Cash"
+              ],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 480206,
+          "cover": "https://p4.music.126.net/iOz4yCEk9tyB_uIrqOdUHQ==/7970359792489532.jpg",
+          "name": "Victoria's Secret Fashion Show 2013",
+          "playCount": 1173331,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 803000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 56782,
+              "name": "Fall Out Boy",
+              "alias": [],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5701012,
+          "cover": "https://p4.music.126.net/b34HOFzH6WPLnsfGnJ9jjw==/109951163054613441.jpg",
+          "name": "The Making of a Song “Gorgeous”",
+          "playCount": 721258,
+          "briefDesc": "霉霉新单《Gorgeous》制作花絮！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 650000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": [
+            "“Gorgeous” 制作花絮"
+          ]
+        }
+      ]
+    },
+    "code": 200
+  },
+  {
+    "result": {
+      "mvCount": 342,
+      "mvs": [
+        {
+          "id": 5709029,
+          "cover": "https://p4.music.126.net/TI6LTpc6ixxRmx56Ll-a4A==/109951163057234195.jpg",
+          "name": "Taylor Swift新专辑《Reputation》预告片",
+          "playCount": 436884,
+          "briefDesc": "Taylor Swift新专辑11月7日开始预售！",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 24000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 325218,
+          "cover": "https://p4.music.126.net/JB5RevBKd91N4PwT6_BGTg==/8978611952484398.jpg",
+          "name": "Teardrops On My Guitar",
+          "playCount": 316732,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 217000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 365679,
+          "cover": "https://p4.music.126.net/NlLZkRL-s_PVreOfQ1GICQ==/3232564186618498.jpg",
+          "name": "Blank Space(Live at AMA's 2014)",
+          "playCount": 328546,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 274000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5860052,
+          "cover": "https://p4.music.126.net/zA2fOCo1saQm9dTOcsVA7w==/109951163195533230.jpg",
+          "name": "Delicate Music Video Dance Rehearsal Part 1",
+          "playCount": 145697,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 60000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10770101,
+          "cover": "https://p4.music.126.net/jB-udB6iqtAO47oIpm3MPw==/109951163523443423.jpg",
+          "name": "Jump Then Fall (Live at reputation stadium tour)",
+          "playCount": 120332,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 318000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5269140,
+          "cover": "https://p4.music.126.net/2xhrAWOrYRtBroM1FbwC4A==/3276544658517647.jpg",
+          "name": "We Are Never Ever Getting Back Together(Taylor Swift Cover)",
+          "playCount": 277808,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "MY FIRST STORY",
+          "artistId": 20689,
+          "duration": 212000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 20689,
+              "name": "MY FIRST STORY",
+              "alias": [
+                "マイ・ファースト・ストーリー",
+                "MFS"
+              ],
+              "transNames": null
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32577,
+          "cover": "https://p4.music.126.net/TujD4yUDrNOuv9d4K35SNg==/5992338371379305.jpg",
+          "name": "Ours",
+          "playCount": 319446,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 238000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5465021,
+          "cover": "https://p3.music.126.net/CRAg-0eevMe-LXYjeOhPXA==/19006157997765796.jpg",
+          "name": "All Too Well (Super Saturday Night)",
+          "playCount": 656773,
+          "briefDesc": "Taylor Swift超级碗预热演唱会演绎《All Too Well》",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 360000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 382708,
+          "cover": "https://p3.music.126.net/o2Zkt46WY8cxYl3SIiGSAw==/7717472115536897.jpg",
+          "name": "All Too Well 第56届格莱美颁奖礼排练",
+          "playCount": 307572,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 340000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 524211,
+          "cover": "https://p3.music.126.net/HmbV2Td9dd20aCswKQ-e1A==/3242459793609730.jpg",
+          "name": "This Love 2015维密圣诞宣传版",
+          "playCount": 728495,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 121000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 467149,
+          "cover": "https://p4.music.126.net/sWzFNTlZEcHVzYkvA9c6ag==/3251255883802119.jpg",
+          "name": "Trini Dem Girls+The Night Is Still Young+Bad Blood(Live @ VMA 2015)",
+          "playCount": 613306,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Nicki Minaj",
+          "artistId": 70183,
+          "duration": 290000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 70183,
+              "name": "Nicki Minaj",
+              "alias": [
+                "妮琪·米娜",
+                "麻辣鸡"
+              ],
+              "transNames": [
+                "妮琪·米娜"
+              ]
+            },
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5415021,
+          "cover": "https://p3.music.126.net/wJmkZElo-887VZqiOoPXKg==/18675205000024311.jpg",
+          "name": "I Don't Wanna Live Forever (Fifty Shades Darker)",
+          "playCount": 2753271,
+          "briefDesc": "《五十度黑》电影主题曲歌词版MV",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 247000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            },
+            {
+              "id": 1108049,
+              "name": "ZAYN",
+              "alias": [
+                "Zayn Malik",
+                "泽恩·马利克",
+                "美渣"
+              ],
+              "transNames": [
+                "泽恩·马利克"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 325222,
+          "cover": "https://p3.music.126.net/OaSfMbgXXAKqR48SV54tZg==/8986308533881171.jpg",
+          "name": "The Best Day",
+          "playCount": 287013,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 275000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 10866604,
+          "cover": "https://p3.music.126.net/HdllN_XZ8NVQRAqGCi7_Xw==/109951164042781803.jpg",
+          "name": "ME! Behind The Scenes: Je Suis Calme",
+          "playCount": 39887,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 196000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 501258,
+          "cover": "https://p4.music.126.net/gxvbbbXfNsgSjjTF4zo7SQ==/3429376768564702.jpg",
+          "name": "Out Of The Woods (Live at GRAMMY Museum)",
+          "playCount": 296138,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 335000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 5461046,
+          "cover": "https://p4.music.126.net/tEmnaQJjfcjlyh4y24GwYQ==/19200771555881742.jpg",
+          "name": "Super Saturday Night (超级碗预热演唱会Part2)",
+          "playCount": 723264,
+          "briefDesc": "霉霉超级碗预热演唱会Part.2完整版出炉",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 1266000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 349515,
+          "cover": "https://p4.music.126.net/oXOvWkLaaehMkbopsUJZTg==/2543170395827929.jpg",
+          "name": "Riptide (Live Lounge)",
+          "playCount": 278566,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 209000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 32567,
+          "cover": "https://p3.music.126.net/SaleqO5sEU_w5fzG3hhdeg==/6027522743468083.jpg",
+          "name": "Fifteen",
+          "playCount": 274100,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 304000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        },
+        {
+          "id": 499082,
+          "cover": "https://p4.music.126.net/TNRJcDxoFJX39lV-6CMGAA==/3272146607375041.jpg",
+          "name": "Speak Now World Tour Live 2011",
+          "playCount": 276518,
+          "briefDesc": null,
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 7789000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": [
+            "爱的告白世界巡回演唱会"
+          ]
+        },
+        {
+          "id": 358368,
+          "cover": "https://p3.music.126.net/m-2jrgKo1x-sSSYXO-nDgw==/3239161255857251.jpg",
+          "name": "Shake It Off (Live at Sukkiri)",
+          "playCount": 88631,
+          "briefDesc": "",
+          "desc": null,
+          "artistName": "Taylor Swift",
+          "artistId": 44266,
+          "duration": 229000,
+          "mark": 0,
+          "artists": [
+            {
+              "id": 44266,
+              "name": "Taylor Swift",
+              "alias": [
+                "泰勒斯威夫特",
+                "泰勒史薇芙特",
+                "泰勒斯威芙特",
+                "霉霉"
+              ],
+              "transNames": [
+                "泰勒·斯威夫特"
+              ]
+            }
+          ],
+          "transNames": null,
+          "alias": null
+        }
+      ]
+    },
+    "code": 200
+  }
+]

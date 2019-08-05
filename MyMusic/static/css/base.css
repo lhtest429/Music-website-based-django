@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: bottom;    /* 解决liinline—block后不对齐*/
+
+}
+a{
+    text-decoration: none;
+}
+
+#top{
+    height: 60px;
+    margin-top: 30px;
+}
+
+#logo{
+    display: block;
+    height: 40px;
+    width: 570px;
+    background: url("../pic/txt-rainbow.png");
+    margin: 0 auto;
+}
+
+#navigation{
+    height: 50px;
+    background-color: #c20c0c;
+
+    z-index:9999;   /* 解决导航栏吸顶的时候，有position定位的轮播图在导航栏上面 */
+}
+
+
+
+#search{
+	display: inline-block;
+	height: 50px;
+    width: 674px;
+    float: right;
+	/*background-color: black;*/
+}
+
+#search::after{
+    content: "";    /* 只有加上content属性伪元素才能生效 */
+    clear: both;    /* 能清除浮动的必须是块级元素，不能是inline-block */
+    display: block;
+}
+
+#searchbar{
+    line-height: 50px;
+}
+
+#input_text{
+
+	width: 200px;
+	height: 33px;
+	border: 2px solid #DCDCDC;
+	border-left: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	outline: none;		/* 去除input选中的框 */
+	padding-left: 15px;
+	font-size: 16px;
+	color: #A9A9A9;
+    line-height: 40px;
+    margin-left: 76px;
+    /*display: none;*/
+}
+#input_button{
+	height: 37px;
+	width: 60px;
+	margin-left: 200px;
+	background: url(../pic/search.png) center no-repeat;
+	border: 2px solid #DCDCDC;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /*border-radius: 20px;*/
+    border-right: none;
+	/*border-top-right-radius: 20px;*/
+	/*border-bottom-right-radius: 20px;*/
+	outline: none;		/* 去除input选中的框 */
+
+	/*background-color: darkcyan;*/
+}
+
+#input_button:active{
+    background-color: #9b0909;
+}
+
+.select_box{
+    position: relative;
+}
+
+#website{
+    height: 37px;
+    color: #A9A9A9;
+    font-size: 16px;
+    outline: none;
+    border-right: none;
+    border-left: none;
+    border-top: 2px solid #DCDCDC;
+    border-bottom: 2px solid #DCDCDC;
+    position: relative;
+    top: -48px;
+    left: 260px;
+
+}
+
+
+
+.nav{
+    display: inline-block;
+    height: 50px;
+    width: 675px;
+    /*background-color: aquamarine;*/
+}
+
+
+.nav ul{
+    margin-left: 180px;
+}
+
+.nav li{
+    margin-left: 10px;
+}
+
+.nav li a{
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    padding: 5px 20px;
+}
+.nav li a:hover{
+    background-color: #9b0909;
+    border-radius: 20px;
+}
+
+#content_box{
+    background-color: #f9f9f9;
+}
+
+#content{
+    height: auto;
+    width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #CFCFCF;
+    /*position: relative;*/
+}
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.foot{
+    width: 100%;
+    height: 300px;
+    /*margin-top: 50px;*/
+    background-color: #333333;
+}
+
+div.foot_title{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #7f7f7f;
+    margin-left: 150px;
+    /*margin-top: 150px;*/
+    padding-top: 30px;
+    /*background-color: #3e87e8;*/
+}
+
+
+.download{
+    height: 70px;
+    width: 600px;
+    /*background-color: #c20c0c;*/
+}
+
+.download a{
+    display: inline-block;
+    height: 50px;
+    width: 45px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.download a{
+    width: 50px;
+    height: 50px;
+    color: #7f7f7f;
+}
+
+.download a{
+    background: url("../pic/footer.png") no-repeat;
+}
+#pc{
+    margin-left: 150px;
+    background-position: 2px 0;
+}
+
+#mac{
+    background-position: -91px 0;
+}
+
+#android{
+    background-position: -184px 0;
+}
+
+#iphone{
+    background-position: -271px 0;
+}
+
+.download p{
+    margin-top: 50px;
+}
+
+#android p{
+    margin-left: -7px;
+}
+
+#pc:hover{
+    color: #31c37c;
+    background-position: 2px -49px;
+}
+
+#mac:hover{
+    color: #31c37c;
+    background-position: -91px -49px;
+}
+#android:hover{
+    color: #31c37c;
+    background-position: -184px -49px;
+}
+#iphone:hover{
+    color: #31c37c;
+    background-position: -271px -49px;
+}
+
+.data_source{
+    height: 120px;
+    width: 630px;
+    /*background-color: #31c37c;*/
+    display: inline-block;
+    float: right;
+    margin-top: 28px;
+}
+.data_source:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.data_source_text{
+    font-size: 20px;
+    color: #7f7f7f;
+}
+.data_source_text:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.source_link{
+    width: 630px;
+    height: 70px;
+    /*background-color: #3e87e8;*/
+    margin-top: 25px;
+}
+.source_link a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    /*background-color: #c20c0c;*/
+}
+
+#netease{
+    background: url("../pic/wyy.png") center/100% 100% no-repeat;
+}
+#qq{
+    background: url("../pic/qq.png") center/100% 100% no-repeat;
+}
+#kugou{
+    background: url("../pic/kg.png") center/100% 100% no-repeat;
+}
+#migu{
+    background: url("../pic/mg.png") center/100% 100% no-repeat;
+}
+#xiami{
+    background: url("../pic/moling1.png") center/100% 100% no-repeat;
+}
+
+#netease:hover{
+    background: url("../pic/wyy1.png") center/100% 100% no-repeat;
+}
+#qq:hover{
+    background: url("../pic/qq1.png") center/100% 100% no-repeat;
+}
+#kugou:hover{
+    background: url("../pic/kg1.png") center/100% 100% no-repeat;
+}
+#migu:hover{
+    background: url("../pic/mg1.png") center/100% 100% no-repeat;
+}
+#xiami:hover{
+    background: url("../pic/moling2.png") center/100% 100% no-repeat;
+}
+
+
+.source_link p{
+    margin-top: 50px;
+    color: #7f7f7f;
+
+}
+#qq p,
+#kugou p,
+#migu p,
+#xiami p{
+    margin-left: 10px;
+}
+
+.declare{
+    margin-top: 60px;
+    /*background-color: #31c37c;*/
+}
+
+.declare p{
+    text-align: center;
+    margin-top: 10px;
+    color: #7f7f7f;
+}
+
+
+audio{
+    outline: none;
+}
+
+
+/* 回到顶部 */
+.fixed{
+    position:fixed;
+    right:20px;
+    bottom: 30px;
+    /*height:30px;*/
+    /*width: 50px;*/
+    height:20px;
+    width: 40px;
+    text-align:center;
+    padding-top:20px;
+    background-color: #c20c0c;
+    border-radius: 20%;
+    overflow: hidden;
+}
+.fixed:hover:before{
+    top:50%
+}
+.fixed:hover .box-in{
+    visibility: hidden;
+}
+.fixed:before{
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content:'Top';
+    width: 40px;
+    font-size: 15px;
+    /*color:peru;*/
+    color: #fff;
+    font-weight:bold;
+
+}
+.box-in{
+    visibility: visible;
+    display:inline-block;
+    /*height:20px;*/
+    /*width: 20px;*/
+    height:10px;
+    width: 10px;
+    border: 3px solid black;
+    border-color: white transparent transparent white;
+    transform:rotate(45deg);
+}
+

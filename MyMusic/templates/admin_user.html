@@ -1,0 +1,52 @@
+{# 用户管理 #}
+{% extends 'administrator.html' %}
+
+{% block content %}
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/admin_music.css' %}">
+    <link rel="stylesheet" href="{% static 'css/admin_user.css' %}">
+
+    <ul class="all list" id="list all" style="min-height: 272px">
+            {% for foo in result %}
+                <li style="width: 1362px;">
+                    <div class="tag" id="tag">
+                        <p class="music_id" style="margin-left: 100px">用户名：<span>{{ foo.username }}</span></p>
+                        <p class="music_name" style="width: 350px; margin-left: 30px">密码：<span>{{ foo.password }}</span></p>
+                        <p class="email" style="margin-left: 80px; width: 350px;">邮箱：<span>{{ foo.email }}</span></p>
+
+                        <form action="" method="post" id="option">
+                            {% csrf_token %}
+                            <input type="text" name="username" value="{{ foo.username  }}" style="display: none">
+                            <input type="text" name="password" value="{{ foo.password  }}" style="display: none">
+                            <input type="submit" value="删除" name="delete">
+                        </form>
+        {#                <input type="submit" value="修改" name="modify" id="modfy" onclick="click()">#}
+
+                    </div>
+                </li>
+        {% endfor %}
+
+    </ul>
+
+     <div id="pages" class="text-center" >
+        <nav>
+            <ul class="pagination">
+                <li class="step-links">
+                    {% if result.has_previous %}
+                        <a class='active' href="?page={{ result.previous_page_number }}">上一页</a>
+                    {% endif %}
+
+                    <span class="current">
+                        &nbsp;&nbsp;第 {{ result.number }} 页&nbsp;&nbsp;
+                    </span>
+
+                    {% if result.has_next %}
+                        <a class='active' href="?page={{ result.next_page_number }}">下一页 </a>
+                        &nbsp;&nbsp;共 {{ result.paginator.num_pages }}页
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}

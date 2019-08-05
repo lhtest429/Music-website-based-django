@@ -1,0 +1,63 @@
+{#榜单#}
+
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/list.css' %}">
+
+    <div class="title_box">
+        <div class="title">云音乐热歌榜</div>
+        <p class="update_time">最近更新：05月09日 （每周四更新）</p>
+    </div>
+
+    <div class="text_box">
+        <span id="text1">音乐榜</span>
+        <span id="text2">400首歌</span>
+        <span id="text3">播放：<span id="text4">3807479296</span>次</span>
+    </div>
+
+    <ul class="songlist" id="songlist all">
+        {% for info in infos %}
+            <li class="music_module">
+                <div class="music_info">
+                    <div class="img" style="background: url('{{ info.pic }}') center/100% 100% no-repeat"></div>
+                    <span class="name_author">{{ info.song_name }} - {{ info.author }}</span>
+                    <span class="album">专辑：{{ info.album }}</span>
+                </div>
+                <audio class="media" controls="controls">
+                    <source src="https://music.163.com/song/media/outer/url?id={{ info.song_id }}">
+                </audio>
+                <p class="no">{{ info.no }}</p>
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+    <div id="pages" class="text-center" >
+        <nav>
+            <ul class="pagination">
+                <li class="step-links">
+                    {% if infos.has_previous %}
+                        <a class='active' href="?page={{ infos.previous_page_number }}">上一页</a>
+                    {% endif %}
+
+                    <span class="current">
+{#                      Page {{ infos.number }} of {{ infos.paginator.num_pages }}</span>#}
+                        &nbsp;&nbsp;第 {{ infos.number }} 页&nbsp;&nbsp;
+                    </span>
+
+                    {% if infos.has_next %}
+                        <a class='active' href="?page={{ infos.next_page_number }}">下一页 </a>
+                        &nbsp;&nbsp;共 {{ infos.paginator.num_pages }}页
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+{% endblock %}

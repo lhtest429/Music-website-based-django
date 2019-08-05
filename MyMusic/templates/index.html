@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{#    <script type="text/javascript" src="{% static 'js/index.js' %}"></script>#}
+    <script language="javascript" src="{% static 'js/index.js' %}" type="text/javascript" defer="defer"> </script>
+
+    {# =========================================================================  #}
+
+    {#  轮播图  #}
+{#    <div class="loop">#}
+{#            <input type="radio" name="slider" id="first">#}
+{#            <input type="radio" name="slider" id="second">#}
+{#            <input type="radio" name="slider" id="third">#}
+{##}
+{#            <div id="wrap">#}
+{#                <ul id="slider">#}
+{#                    <li><a href=""><img src="{% static 'pic/rotate1.jpg' %}"/></a></li>#}
+{#                    <li><a href=""><img src="{% static 'pic/rotate2.jpg' %}"/></a></li>#}
+{#                    <li><a href=""><img src="{% static 'pic/rotate0.jpg' %}"/></a></li>#}
+{#                </ul>#}
+{#            </div>#}
+{#            <div id="opts">#}
+{#              <label for="first"></label>#}
+{#              <label for="second"></label>#}
+{#              <label for="third"></label>#}
+{#            </div>#}
+{#        </div>#}
+
+
+    {#  轮播图  #}
+    <div class="box" id="box">
+        <div class="inner" id="inner">
+            <!--轮播图-->
+            <ul>
+                <li><a href="{% url 'rotate' rotate_id=20116920 %}"><img src="{% static 'pic/rotate1.jpg' %}" alt=""></a></li>
+                <li><a href="{% url 'rotate' rotate_id=20000869 %}"><img src="{% static 'pic/rotate2.jpg' %}" alt=""></a></li>
+                <li><a href="{% url 'rotate' rotate_id=20051302 %}"><img src="{% static 'pic/rotate6.jpg' %}" alt=""></a></li>
+                <li><a href="{% url 'rotate' rotate_id=2036058 %}"><img src="{% static 'pic/rotate4.jpg' %}" alt=""></a></li>
+                <li><a href="{% url 'rotate' rotate_id=20360586 %}"><img src="{% static 'pic/rotate5.jpg' %}" alt=""></a></li>
+                <li><a href="{% url 'rotate' rotate_id=20063705 %}"><img src="{% static 'pic/rotate7.jpg' %}" alt=""></a></li>
+
+            </ul>
+
+            <ol class="bar">
+
+            </ol>
+            <!--左右焦点-->
+            <div id="arr">
+                <span id="left">
+                    <
+                </span>
+                <span id="right">
+                    >
+                </span>
+            </div>
+
+        </div>
+    </div>
+
+
+    {# =========================================================================  #}
+
+    <div class="list_head">
+        <span>精选MV</span>
+        <a href="{% url 'mv' %}">更多>></a>
+    </div>
+
+    <ul id="mv_list">
+        {% for mv_info in mv_infos %}
+            <li class="mv">
+                <a class="mv_link" href="{% url 'mv_detail' mv_id=mv_info.mv_id %}">
+                    <div class="mv_pic" style="background: url('{{ mv_info.mv_pic }}') center/100% 100% no-repeat"></div>
+                    <div class="play_count">{{ mv_info.playCount }}</div>
+                    <div class="mv_title">
+                        <p class="mv_name">{{ mv_info.mv_name }}</p>
+                        <p class="mv_author">by {{ mv_info.mv_author }}</p>
+                    </div>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+
+
+
+    <div class="list_head">
+        <span>精选歌单</span>
+        <a href="{% url 'songlist' %}">更多>></a>
+    </div>
+
+
+    <ul id="list">
+        {% for info in infos %}
+            <li  class="demo">
+                <a href="{% url 'detail' songlist_id=info.list_id %}">
+{#                    <img class="list_img" src="{{ info.list_img }}" alt="">#}
+                    <div class="list_img" style="background: url('{{ info.list_img }}') center/100% 100% no-repeat"></div>
+                    <p class="title">{{ info.list_title }}</p>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {# =========================================================================  #}
+
+
+
+{% endblock %}

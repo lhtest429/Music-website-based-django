@@ -1,0 +1,153 @@
+.detail_head{
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    /*background-color: cornflowerblue;*/
+}
+
+.detail_head .pic{
+    height: 200px;
+    width: 234px;
+    background-color: #c20c0c;
+    overflow: hidden;
+    margin-left: 80px;
+
+    display: inline-block;
+    /*vertical-align:-110px;  !* 对齐方式 *!*/
+}
+
+.detail_head .pic div{
+    height: 198px;
+    width: 234px;
+    background: url("../pic/coverall.png") no-repeat;
+    transform: scale(1.13, 1.13);   /* 放大背景图 */
+    background-position:  13px -974px;
+
+}
+
+.detail_head .description{
+    float: right;
+    width: 560px;
+    height: auto;
+    margin-right: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    /*background-color: aquamarine;*/
+}
+
+/* 消除浮动 */
+.description:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#tag{
+    /*display: inline-block;*/
+    width: auto;
+    height: 20px;
+    background-color: #c20c0c;
+    line-height: 20px;
+    border-radius: 15px;
+    padding: 0 8px;
+    color: #ffffff;
+    font-size: 10px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+
+.detail_head #list_title{
+    /*float: right;*/
+    font-size: 31px;
+    line-height: 50px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*max-width: 70%;*/
+    margin-right: 10px;
+}
+
+#list_tag{
+    margin-top: 20px;
+    color: #666666;
+}
+
+.text_p{
+    margin-top: 10px;
+    color: #666666;
+}
+
+#list_tag a{
+    display: inline-block;
+    width: auto;
+    height: 22px;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 22px;
+    padding-left: 8px;
+    color: #777777;
+}
+
+
+#mid{
+    width: auto;
+    height: 0;
+    border: 2px solid #c20c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.box{
+    width: 800px;
+    height: 130px;
+    background-color: #f1f3f4;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+/*.info{*/
+    /*width: 800px;*/
+    /*height: 80px;*/
+    /*background-color: #c20c0c;*/
+/*}*/
+
+.info .img{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+}
+
+.info span{
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示... */
+    position: absolute;
+}
+
+.info .name_author,
+.info .album{
+    margin-left: 20px;
+}
+
+.info .name_author{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.info .album{
+    margin-top: 50px;
+}
+
+.media{
+    position: absolute;
+    width: 650px;
+    height: 35px;
+    margin-top: -40px;
+    margin-left: 130px;
+}

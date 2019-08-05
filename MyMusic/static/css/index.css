@@ -1,0 +1,217 @@
+.list_head{
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    /*background-color: #3e87e8;*/
+}
+
+.list_head span{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 40px;
+    border-bottom: 4px #c20c0c solid;
+}
+.list_head a{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 17px;
+    color: #000;
+}
+.list_head a:hover{
+    color: #c20c0c;
+}
+
+li{
+    list-style: none;
+    /*display: inline-block;*/
+    vertical-align: bottom;    /* 解决liinline—block后不对齐*/
+}
+
+.demo{
+    width: 200px;
+    height: 250px;
+    background-color: cornflowerblue;
+    margin-left: 38px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #888888;    /* 添加阴影 */
+}
+
+/*.demo img{*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+/*}*/
+/*.demo img:hover{*/
+    /*width: 210px;*/
+    /*height: 210px;*/
+/*}*/
+
+
+.demo .list_img{
+    width: 200px;
+    height: 200px;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*.demo .list_img:hover{*/
+   /*background-size: 210px 210px;*/
+/*}*/
+
+.demo p{
+    padding-top: 5px;
+    width: 100%;
+    height: 45px;
+    color: #000000;
+    background-color: #b5b5b5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.demo p:hover{
+    color: #c20c0c;
+}
+
+.demo:hover{
+    transform:translateY(-5%);/**上移元素**/
+	-ms-transform:translateY(-5%);
+	-webkit-transform:translateY(-5%);
+}
+
+li.mv{
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 23px;
+    position: relative;
+    box-shadow: 8px 8px 5px #888888;    /* 添加阴影 */
+}
+
+a.mv_link{
+    display: inline-block;
+    height: 250px;
+    width: 300px;
+    color: black;
+    /*background-color: #31c37c;*/
+}
+a.mv_link:hover{
+    color: #c20c0c;
+}
+
+.mv_pic{
+    width: 300px;
+    height: 180px;
+}
+
+.play_count{
+    color: #ffffff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mv_title p{
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+}
+
+.mv_name{
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+.mv_author{
+    color: #b39999;
+}
+
+
+
+/* 轮播图 */
+
+.box {
+    width: 1000px;
+    height: 320px;
+    /*width: auto;*/
+    /*height: 400px;*/
+
+    border: 1px solid #ccc;
+    /*margin: 100px auto;*/
+    /*padding: 5px;*/
+}
+.inner{
+    width: 1000px;
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+.inner img{
+    width: 1000px;
+    height: 320px;
+    vertical-align: top
+}
+.inner ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left:0;
+    top: 0;
+}
+.inner li{
+    float: left;
+}
+
+ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 10px;
+    text-align: center;
+    padding: 5px;
+
+}
+ol li{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+
+    border-radius: 50%;
+}
+ol .current{
+    background-color: red;
+}
+#arr{
+    display: none;
+}
+#arr span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+#arr #right {
+    right: 5px;
+    left: auto;
+}
+
+#list{
+    margin-bottom: 100px;
+}

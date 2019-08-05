@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tag{
+    width: 100%;
+    height: 50px;
+    /*background-color: #31c37c;*/
+    margin-top: 10px;
+    border: 1px solid #d4d4d4;
+}
+
+.tag p{
+    display: inline-block;
+    margin-left: 60px;
+    width: 200px;
+    /* 处理溢出 */
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+
+    margin-top: 10px;
+
+}
+
+.music_id{
+    margin-left: 10px;
+}
+
+.tag span{
+    width: 160px;
+    font-size: 20px;
+    color: #c20c0c;
+
+}
+
+#option{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#option input,
+#modfy{
+    height: 30px;
+    width: 100px;
+    margin-left: 50px;
+    background-color: #f1f3f4;
+    border: none;
+}
+
+#modfy_box p{
+    display: inline-block;
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+.m_sub{
+    width: 50px;
+    height: 20px;
+    background-color: #f1f3f4;
+    border:none;
+}
+
+#modfy_box p{
+    display: none;
+    height: 40px;
+    margin-left: 30px;
+}
+
+
+/* 分页 */
+#pages{
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    /*background-color: #A9A9A9;*/
+}
+
+.step-links a{
+    /*width: auto;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: 	#CFCFCF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.step-links a:hover{
+    color: #c20c0c;
+}

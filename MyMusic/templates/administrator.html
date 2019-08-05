@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RAINBOW</title>
+    {% load static %}
+    {#  网页标题显示图标  #}
+    <link rel="icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    {# 收藏夹显示的图标 #}
+    <link rel="shortcut icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/administrator.css' %}">
+
+
+</head>
+<body>
+    <div id="top">
+        <a id="logo" href="{% url 'admin_music' %}"></a>
+    </div>
+
+    <div class="nav" id="navigation">
+        <ul>
+            <li><a href="{% url 'admin_music' %}">音乐管理</a></li>
+            <li><a href="{% url 'admin_mv' %}">MV管理</a></li>
+            <li><a href="{% url 'admin_user' %}">用户管理</a></li>
+            <li id="exit">
+                <form action="{% url 'admin_music' %}" method="post">
+                    {% csrf_token %}
+                    <input type="submit" name="exit" id="exit_but" value="退出登陆"/>
+                </form>
+            </li>
+        </ul>
+    </div>
+
+
+    {% block content %}
+
+    {% endblock %}
+
+
+
+
+    <div class="foot">
+        <div class="declare">
+            <p class="foot_text"> About Us | 服务条款 | 用户服务协议 | 隐私政策 | 权利声明 | 广告服务 |  客服中心 | 网站导航</p>
+            <p>Copyright © 1998 - 2019 Tencent. All Rights Reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>

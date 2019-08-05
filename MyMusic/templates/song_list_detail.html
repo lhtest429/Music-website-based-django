@@ -1,0 +1,51 @@
+{# 歌单详情 #}
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/detail.css' %}">
+    <script language="javascript" src="{% static 'js/detail.js' %}" type="text/javascript" defer="defer"> </script>
+{#    <script language="javascript" src="{% static 'js/fenye.js' %}" type="text/javascript" defer="defer"> </script>#}
+
+
+    <div class="detail_head">
+{#        <img src="{{ list_img }}" alt="">#}
+        <div class="pic" style="background: url('{{ list_img }}') no-repeat; background-size: 200px;">
+            <div></div>
+        </div>
+{#        <img src="" alt="">#}
+        <div class="description">
+            <p id="list_title">{{ list_title }}</p>
+            <p id="list_tag">
+                标签：
+                {% for list_tag in list_tags %}
+                    <a href="">{{ list_tag }}&nbsp;&nbsp;</a>
+                {% endfor %}
+                <p class="text_p">播放量：14.2万</p>
+                <p class="text_p">收藏量：1268</p>
+            </p>
+
+
+        </div>
+
+    </div>
+
+    <div id="mid"></div>
+
+    <ul class="songlist" id="songlist all">
+        {% for music_info in music_infos %}
+            <li class="music_module">
+                <div class="music_info">
+                    <div class="img" style="background: url('{{ music_info.music_img }}') center/100% 100% no-repeat"></div>
+                    <span class="name_author">{{ music_info.music_name }} - {{ music_info.music_author }}</span>
+                    <span class="album">专辑：{{ music_info.music_album }}</span>
+                </div>
+                <audio class="media" controls="controls">
+                    <source src="https://music.163.com/song/media/outer/url?id={{ music_info.music_id }}">
+                </audio>
+            </li>
+
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}

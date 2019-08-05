@@ -1,0 +1,172 @@
+/*body{*/
+    /*background: url(../pic/bk0.jpg) no-repeat;*/
+    /*!*opacity: 0.5;*!*/
+/*}*/
+
+/*#text{*/
+    /*margin-top: -30px;*/
+    /*width: 500px;*/
+    /*height: 250px;*/
+    /*margin-left: 720px;*/
+    /*!*margin-top: -25px;*!*/
+    /*!*background-color: chartreuse;*!*/
+    /*font-size: 22px;*/
+    /*color: white;*/
+/*}*/
+
+/*.title{*/
+    /*font-size: 55px;*/
+/*}*/
+
+/*#login{*/
+    /*height: 250px;*/
+    /*width: 500px;*/
+    /*margin-left: 720px;*/
+    /*!*background: burlywood;*!*/
+/*}*/
+
+/*#login_input{*/
+    /*width: 500px;*/
+    /*height: 150px;*/
+    /*!*margin-left: 60px;*!*/
+    /*!*background-color: gold;*!*/
+    /*color: white;*/
+    /*font-size: 23px;*/
+/*}*/
+
+/*#login_input input{*/
+    /*height: 50px;*/
+    /*width: 350px;*/
+    /*color: #ccc;*/
+    /*!*margin-left: 20px;*!*/
+    /*border-radius: 10px;		!* 设置input为圆角 *!*/
+    /*border: 2px solid white;*/
+    /*background-color: transparent;	!* 设置input背景为透明 *!*/
+    /*font-size: 25px;*/
+    /*padding-left: 20px;*/
+    /*outline: none;		!* 去掉input在focus时的边框 *!*/
+/*}*/
+
+/*#login_button{*/
+    /*width: 150px;*/
+    /*height: 40px;*/
+    /*color: white;*/
+    /*border-radius: 10px;*/
+    /*margin-top: 80px;*/
+    /*margin-left: 228px;*/
+    /*font-size: 20px;*/
+    /*background-color: transparent;	!* 设置input背景为透明 *!*/
+    /*outline: none;*/
+/*}*/
+
+/*#login_button:hover{*/
+    /*color: lightseagreen;*/
+    /*border-color: lightseagreen;*/
+/*}*/
+
+/*!*#other_login{*/
+	/*height: 35px;*/
+	/*width: 500px;*/
+	/*margin-left: 720px;*/
+	/*margin-top: 20px;*/
+/*}*!*/
+
+/*!*#other_login a img{*/
+	/*width: 32px;*/
+	/*height: 32px;*/
+	/*vertical-align:bottom;	!* 处理 a + img 在浏览器中会产生空白*/
+/*}*!*/
+
+/*!*#other_login a{*/
+	/*margin-left: 30px;*/
+/*}*/
+
+/*#other_login span{*/
+	/*color: white;*/
+	/*font-size: 22px;*/
+/*}*!*/
+
+/*#declear{*/
+    /*height: 30px;*/
+    /*width: 480px;*/
+    /*!*background: bisque;*!*/
+    /*font-size: 16px;*/
+    /*margin-left: 420px;*/
+    /*margin-top: 50px;*/
+    /*color: #DCDCDC;*/
+/*}*/
+
+/*#declear a{*/
+    /*text-decoration: none;*/
+    /*color: #DCDCDC;*/
+/*}*/
+
+/*#declear a:hover{*/
+    /*color: lightseagreen;*/
+    /*text-decoration: underline;*/
+/*}*/
+
+
+
+#login_table{
+    float: right;
+    margin-left: 480px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#login_table:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box1,.box2,.box3{
+    margin-top: 15px;
+}
+
+#username,
+#passwd{
+    height: 35px;
+    width: 270px;
+    border-radius: 10px;
+    /*background-color: #e2e2e2;*/
+    background-color: transparent;	/*!* 设置input背景为透明 *!*/
+    font-size: 20px;
+    padding-left: 15px;
+    outline: none;
+}
+
+.box3 input, #passwd_but{
+    width: 90px;
+    height: 35px;
+    margin-left: 50px;
+    margin-right: 70px;
+    background-color: transparent;	/*!* 设置input背景为透明 *!*/
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.box3 a{
+    display: inline-block;
+    width: 90px;
+    height: 32px;
+    /*background-color: #e2e2e2;*/
+    margin-top: 30px;
+    border: 2px #dddddd solid;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+#login{
+    margin-left: 50px;
+}
+
+#register{
+    margin-left: 120px;
+}

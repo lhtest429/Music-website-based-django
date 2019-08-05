@@ -1,0 +1,140 @@
+.title_box{
+    width: 100%;
+    height: 300px;
+    background: url("../pic/bg_index_top.jpg") center/100% 100% no-repeat;
+    text-align: center;
+}
+
+
+.title_box .title{
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 180px;
+}
+
+.title_box .update_time{
+    color: #ffffff;
+}
+
+.text_box{
+    height: 60px;
+    margin-top: 15px;
+    /*background-color: #31c37c;*/
+    border-bottom: 3px solid #c20c0c;
+}
+.text_box span{
+    line-height: 80px;
+}
+#text1{
+    margin-left: 80px;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+#text3{
+    float: right;
+    margin-right: 70px;
+    margin-top: 5px;
+}
+#text3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#text4{
+    color: #c20c0c;
+    font-weight: bold;
+}
+
+
+li.music_module{
+    display: inline-block;
+    height: 100px;
+    width: 850px;
+    /*background-color: #31c37c;*/
+    background-color: #f1f3f4;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #888888;    /* 添加阴影 */
+}
+
+.music_module .no{
+    display: inline-block;
+    height: 100px;
+    width: 35px;
+    font-size: 20px;
+    line-height: 100px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    background-color: #B5B5B5;
+    color: #f1f3f4;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.music_module .music_info{
+    display: inline-block;
+}
+
+.music_module .img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+
+    /*background-color: #c20c0c;*/
+    background: url("../pic/music1.png") center no-repeat;
+    border-radius: 10px;
+}
+.music_module span{
+    /*background-color: #A9A9A9;*/
+    position: absolute;
+    width: 700px;
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+    /*background-color: #31c37c;*/
+}
+
+.name_author{
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+.album{
+    margin-top: -70px;
+    margin-left: 120px;
+}
+
+.media{
+    height: 30px;
+    width: 700px;
+    margin-left: -3px;
+    /*background-color: aqua;*/
+}
+
+
+
+/* 分页 */
+#pages{
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    /*background-color: #A9A9A9;*/
+}
+
+.step-links a{
+    /*width: auto;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: 	#CFCFCF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.step-links a:hover{
+    color: #c20c0c;
+}

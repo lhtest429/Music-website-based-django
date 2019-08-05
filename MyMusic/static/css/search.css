@@ -1,0 +1,96 @@
+.songlist .title{
+    width: 200px;
+    height: 50px;
+    margin-top: 8px;
+    /*background-color: #cccccc;*/
+}
+
+#pages{
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    /*background-color: #A9A9A9;*/
+}
+
+.step-links a{
+    /*width: auto;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: 	#CFCFCF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.step-links a:hover{
+    color: #c20c0c;
+}
+
+.tip{
+    width: 100%;
+    height: 500px;
+}
+
+.tip1,
+.tip2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.tip1{
+    margin-top: 120px;
+}
+.tip2{
+    margin-top: 50px;
+}
+
+
+
+
+div.music_module{
+    display: inline-block;
+    height: 100px;
+    width: 800px;
+    /*background-color: #31c37c;*/
+    background-color: #f1f3f4;
+    /*margin-top: 20px;*/
+    margin-left: 90px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.music_module .music_info{
+    display: inline-block;
+}
+
+.music_module .img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /*background-color: #c20c0c;*/
+    background: url("../pic/music1.png") center no-repeat;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.music_module span{
+    /*background-color: #A9A9A9;*/
+    position: absolute;
+    /*margin-top: -80px;*/
+}
+
+.name_author{
+    margin-top: -90px;
+    margin-left: 120px;
+}
+
+/*.album{*/
+    /*margin-top: -70px;*/
+    /*margin-left: 120px;*/
+/*}*/
+
+.media{
+    height: 30px;
+    width: 695px;
+    margin-left: -3px;
+}

@@ -1,0 +1,122 @@
+{# 歌单 #}
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/songlist.css' %}">
+
+    <div id="bk_songlist">
+        <p>数据来自<a href="https://music.163.com/" target="_blank">网易云音乐</a></p>
+    </div>
+
+    <div class="text_box">
+        <span id="text1">歌单</span>
+        <span id="text2">700歌单</span>
+        <span id="text3">播放：<span id="text4">3807479296</span>次</span>
+    </div>
+
+    <ul id="all">
+        {% for context in contexts %}
+            <li class="songlist">
+                <a href="{% url 'detail' songlist_id=context.list_id %}">
+                    <div class="img" style="background: url('{{ context.list_img }}') center/100% 100% no-repeat;">
+                        <div class="tag">
+                            {{ context.list_tag }}
+                        </div>
+                    </div>
+                    <div class="title">{{ context.list_title }}</div>
+                </a>
+            </li>
+        {% endfor %}
+
+    </ul>
+
+{# ============================== 分页 ============================== #}
+
+{#        {% if chapters.has_previous %}#}
+{#            <li>#}
+{#                <a href="?page={{ chapters.previous_page_number }}" class=" button big previous">Previous Page</a>#}
+{#            </li>#}
+{#        {% else %}#}
+{#            <li>#}
+{#                <a href="#" class="disabled button big previous">Previous Page</a>#}
+{#            </li>#}
+{#        {%endif%}#}
+{#        {% if chapters.has_next %}#}
+{#            <li>#}
+{#                <a href="?page={{ chapters.next_page_number }}" class="button big next">Next Page</a>#}
+{#            </li>#}
+{#        {%else%}#}
+{#            <li>#}
+{#                <a href="#" class="button big next">Next Page</a>#}
+{#            </li>#}
+{#        {%endif%}#}
+
+
+{#    <div>#}
+{#        <ul class="pagination">#}
+{#            <li>#}
+{#                <a href="?page={{ contexts.previous_page_number }}" aria-label="Previous">#}
+{#                    <span aria-hidden="true">&laquo;首页</span>#}
+{#                </a>#}
+{#            </li>#}
+{#            {% if contexts.has_previous %}#}
+{#                <li>#}
+{#                    <a href="?page={{ contexts.previous_page_number }}" aria-label="Previous">#}
+{#                        <span aria-hidden="true">&laquo;上一页</span>#}
+{#                    </a>#}
+{#                </li>#}
+{#            {% endif %}#}
+{##}
+{#            {% for num in contexts.paginator.page_range %}#}
+{##}
+{#                <li><a href="?page={{ num }}">{{ num }}</a></li>#}
+{#                   {% if contexts.number == num %}#}
+{#                       <li class="active">#}
+{#                           <a href="?page={{ num }}">{{ num }}</a>#}
+{#                       </li>#}
+{#                   {% else %}#}
+{#                       <li><a href="?page={{ num }}">{{ num }}</a></li>#}
+{#                   {% endif %}#}
+{#            {% endfor %}#}
+{##}
+{#            {% if contexts.has_next %}#}
+{#                <li>#}
+{#                    <a href="?page={{ contexts.next_page_number }}" aria-label="Next">#}
+{#                        <span aria-hidden="true">下一页&raquo;</span>#}
+{#                    </a>#}
+{#                </li>#}
+{#            {% endif %}#}
+{#            <li><a href="?page={{ contexts.paginator.num_pages }}">尾页&raquo;</a></li>#}
+{#        </ul>#}
+{#    </div>#}
+
+
+
+
+
+        <div id="pages" class="text-center" >
+            <nav>
+                <ul class="pagination">
+                    <li class="step-links">
+                        {% if contexts.has_previous %}
+                            <a class='active' href="?page={{ contexts.previous_page_number }}">上一页</a>
+                        {% endif %}
+
+                        <span class="current">
+{#                            Page {{ contexts.number }} of {{ contexts.paginator.num_pages }}</span>#}
+                            &nbsp;&nbsp;第 {{ contexts.number }} 页&nbsp;&nbsp;
+                        </span>
+
+                        {% if contexts.has_next %}
+                            <a class='active' href="?page={{ contexts.next_page_number }}">下一页 </a>
+                            &nbsp;&nbsp;共 {{ contexts.paginator.num_pages }}页
+                        {% endif %}
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+{% endblock %}

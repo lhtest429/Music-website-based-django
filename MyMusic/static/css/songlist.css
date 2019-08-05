@@ -1,0 +1,153 @@
+#bk_songlist{
+    width: 100%;
+    height: 300px;
+    background-color: #31c37c;
+    /*background: url("../pic/img2.jpg") center/150% 300% no-repeat;*/
+    /*background-position: -200px -450px;*/
+    background: url("../pic/img1.jpg") center/100% 200% no-repeat;
+    background-position: 0 -30px;
+}
+
+#bk_songlist p{
+    color: #ffffff;
+    float: right;
+    margin-top: 270px;
+    margin-right: 10px;
+}
+
+#bk_songlist a{
+    color: #ffffff;
+}
+
+.text_box{
+    height: 60px;
+    margin-top: 15px;
+    /*background-color: #31c37c;*/
+    border-bottom: 3px solid #c20c0c;
+    position: relative;
+}
+
+#text1,
+#text2{
+    position: absolute;
+}
+
+#text1{
+    margin-left: 80px;
+    font-size: 30px;
+    /*margin-right: 50px;*/
+    margin-top: 20px;
+}
+
+#text2{
+    margin-left: 200px;
+    margin-top: 35px;
+}
+
+#text3{
+    float: right;
+    margin-right: 70px;
+    margin-top: 35px;
+}
+#text3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#text4{
+    color: #c20c0c;
+    font-weight: bold;
+}
+
+
+
+
+
+#all a{
+    color: #ffffff;
+}
+
+
+/*.box{*/
+    /*display: inline-block;*/
+    /*width: 220px;*/
+    /*height: 280px;*/
+    /*background-color: #3e87e8;*/
+    /*margin-left: 22px;*/
+    /*margin-top: 30px;*/
+/*}*/
+
+.songlist{
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    margin-top: 30px;
+    margin-left: 38px;
+    background-color: #B5B5B5;
+    border-radius: 10px;
+
+    vertical-align: bottom;    /* 解决liinline—block后不对齐*/
+
+    box-shadow: 8px 8px 5px #888888;    /* 添加阴影 */
+}
+
+.songlist:hover{
+    color: #c20c0c;
+    transform:translateY(-5%);/**上移元素**/
+	-ms-transform:translateY(-5%);
+	-webkit-transform:translateY(-5%);
+}
+
+.songlist .img{
+    width: 200px;
+    height: 200px;
+    /*background-color: #c20c0c;*/
+    position: relative;
+    /*background-size: 200px 200px;*/
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.songlist .tag{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(70, 130, 180,0.5);
+    position: absolute;
+    top: 170px;
+    text-align: center;
+}
+/*.tag a{*/
+    /*color: #ffffff;*/
+    /*line-height: 30px;*/
+    /*!*margin-left: 10px;*!*/
+/*}*/
+
+
+.songlist .title{
+    width: 200px;
+    height: 50px;
+    margin-top: 8px;
+    /*background-color: #cccccc;*/
+}
+
+#pages{
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    /*background-color: #A9A9A9;*/
+}
+
+.step-links a{
+    /*width: auto;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: 	#CFCFCF;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.step-links a:hover{
+    color: #c20c0c;
+}
+

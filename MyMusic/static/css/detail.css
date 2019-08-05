@@ -1,0 +1,246 @@
+.detail_head{
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    /*background-color: cornflowerblue;*/
+}
+
+.detail_head .pic{
+    height: 200px;
+    width: 234px;
+    /*background-color: wheat;*/
+    overflow: hidden;
+    margin-left: 80px;
+
+    display: inline-block;
+    /*vertical-align:-110px;  !* 对齐方式 *!*/
+}
+
+.detail_head .pic div{
+    height: 198px;
+    width: 234px;
+    background: url("../pic/coverall.png") no-repeat;
+    transform: scale(1.13, 1.13);   /* 放大背景图 */
+    background-position:  13px -974px;
+
+}
+
+.detail_head .description{
+    float: right;
+    width: 560px;
+    height: auto;
+    margin-right: 80px;
+    display: inline-block;
+    margin-top: 30px;
+    /*background-color: aquamarine;*/
+}
+
+/* 消除浮动 */
+.description:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.detail_head #list_title{
+    /*float: right;*/
+    font-size: 31px;
+    line-height: 50px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*max-width: 70%;*/
+    margin-right: 10px;
+}
+
+#list_tag{
+    margin-top: 20px;
+    color: #666666;
+}
+
+.text_p{
+    margin-top: 10px;
+    color: #666666;
+}
+
+#list_tag a{
+    display: inline-block;
+    width: auto;
+    height: 22px;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 22px;
+    padding-left: 8px;
+    color: #777777;
+}
+
+/*.music{*/
+    /*width: auto;*/
+    /*height: 100px;*/
+/*}*/
+
+/*.music audio{*/
+    /*height: 100px;*/
+/*}*/
+
+
+#mid{
+    width: auto;
+    height: 0;
+    border: 2px solid #c20c0c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*!* 自定义audio界面 *!*/
+/*.audio-wrapper {*/
+    /*background-color: #fcfcfc;*/
+    /*margin: 10px auto;*/
+    /*max-width: 670px;*/
+    /*height: 70px;*/
+    /*border: 1px solid #e0e0e0;*/
+    /*color: #3e3e3e;*/
+/*}*/
+
+/*.audio-left {*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*width: 18%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.audio-left img {*/
+    /*width: 40px;*/
+    /*position: relative;*/
+    /*top: 15px;*/
+    /*margin: 0;*/
+    /*display: initial;   !* 解除与app的样式冲突 *!*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.audio-right {*/
+    /*margin-right: 2%;*/
+    /*float: right;*/
+    /*width: 80%;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.audio-right p {*/
+    /*font-size: 15px;*/
+    /*height: 35%;*/
+    /*margin: 12px 0 2px 0;*/
+
+    /*!* 歌曲名称只显示在一行，超出部分显示为省略号 *!*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    /*max-width: 243px;   !* 要适配小屏幕手机，所以最大宽度先设小一点，后面js根据屏幕大小重新设置 *!*/
+/*}*/
+
+/*.progress-bar-bg {*/
+    /*background-color: #d9d9d9;*/
+    /*position: relative;*/
+    /*height: 2px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.progress-bar {*/
+    /*background-color: #649fec;*/
+    /*width: 0;*/
+    /*height: 2px;*/
+/*}*/
+
+/*.progress-bar-bg span {*/
+    /*content: " ";*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*-webkit-border-radius: 50%;*/
+    /*background-color: #3e87e8;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 50%;*/
+    /*margin-top: -5px;*/
+    /*margin-left: -5px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.audio-time {*/
+    /*overflow: hidden;*/
+    /*margin-top: 1px;*/
+/*}*/
+
+/*.audio-length-total {*/
+    /*float: right;*/
+    /*font-size: 12px;*/
+/*}*/
+
+/*.audio-length-current {*/
+    /*float: left;*/
+    /*font-size: 12px;*/
+/*}*/
+
+.songlist{
+    margin-bottom: 100px;
+}
+
+
+li.music_module{
+    display: inline-block;
+    height: 100px;
+    width: 450px;
+    /*background-color: #31c37c;*/
+    background-color: #f1f3f4;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px #888888;    /* 添加阴影 */
+}
+
+.music_module .music_info{
+    display: inline-block;
+}
+
+.music_module .img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    /*background-color: #c20c0c;*/
+    /*background: url("../pic/music1.png") center no-repeat;*/
+    border-radius: 10px;
+}
+.music_module span{
+    /*background-color: #A9A9A9;*/
+    position: absolute;
+    /*margin-top: -80px;*/
+    width: 300px;
+    white-space: nowrap;    /* 文字到容器边缘不会换行 */
+    overflow: hidden;       /* 溢出容器的部分隐藏 */
+    text-overflow: ellipsis;    /* 展示...  ellipsis:省略 */
+}
+
+.name_author{
+    margin-top: -100px;
+    margin-left: 120px;
+}
+
+.album{
+    margin-top: -70px;
+    margin-left: 120px;
+}
+
+.media{
+    height: 30px;
+    width: 348px;
+    margin-left: -3px;
+}
+
+

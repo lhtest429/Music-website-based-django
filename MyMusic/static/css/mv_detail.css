@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: bottom;    /* 解决liinline—block后不对齐*/
+}
+a{
+    text-decoration: none;
+}
+
+#top{
+    height: 60px;
+    margin-top: 30px;
+}
+
+#logo{
+    display: block;
+    height: 40px;
+    width: 570px;
+    background: url("../pic/txt-rainbow.png");
+    margin: 0 auto;
+}
+
+.nav{
+    border: 3px solid #c20c0c;
+}
+
+
+#content_box{
+    background-color: #f9f9f9;
+}
+
+#content{
+    height: auto;
+    width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #CFCFCF;
+    /*position: relative;*/
+}
+
+#content video{
+    width: 100%;
+    height: auto;
+    outline: none;
+}
+
+.des{
+    width: 100%;
+    height: 300px;
+    /*background-color: #31c37c;*/
+}
+
+.des p{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.mv_name{
+    font-size: 25px;
+}
+
+.mv_author,
+.mv_play_count,
+.mv_publish_time,
+.mv_des{
+    color: #777777;
+}
+
+.mv_author span{
+    color: #4183c4;
+}
+
+.mv_play_count{
+    float: right;
+    margin-right: 80px;
+}
+.mv_play_count:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.mv_publish_time{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.foot{
+    width: 100%;
+    height: 300px;
+    /*margin-top: 50px;*/
+    background-color: #333333;
+}
+
+div.foot_title{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #7f7f7f;
+    margin-left: 150px;
+    /*margin-top: 150px;*/
+    padding-top: 30px;
+    /*background-color: #3e87e8;*/
+}
+
+
+.download{
+    height: 70px;
+    width: 600px;
+    /*background-color: #c20c0c;*/
+}
+
+.download a{
+    display: inline-block;
+    height: 50px;
+    width: 45px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.download a{
+    width: 50px;
+    height: 50px;
+    color: #7f7f7f;
+}
+
+.download a{
+    background: url("../pic/footer.png") no-repeat;
+}
+#pc{
+    margin-left: 150px;
+    background-position: 2px 0;
+}
+
+#mac{
+    background-position: -91px 0;
+}
+
+#android{
+    background-position: -184px 0;
+}
+
+#iphone{
+    background-position: -271px 0;
+}
+
+.download p{
+    margin-top: 50px;
+}
+
+#android p{
+    margin-left: -7px;
+}
+
+#pc:hover{
+    color: #31c37c;
+    background-position: 2px -49px;
+}
+
+#mac:hover{
+    color: #31c37c;
+    background-position: -91px -49px;
+}
+#android:hover{
+    color: #31c37c;
+    background-position: -184px -49px;
+}
+#iphone:hover{
+    color: #31c37c;
+    background-position: -271px -49px;
+}
+
+.data_source{
+    height: 120px;
+    width: 630px;
+    /*background-color: #31c37c;*/
+    display: inline-block;
+    float: right;
+    margin-top: 28px;
+}
+.data_source:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.data_source_text{
+    font-size: 20px;
+    color: #7f7f7f;
+}
+.data_source_text:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.source_link{
+    width: 630px;
+    height: 70px;
+    /*background-color: #3e87e8;*/
+    margin-top: 25px;
+}
+.source_link a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-right: 40px;
+    /*background-color: #c20c0c;*/
+}
+
+#netease{
+    background: url("../pic/wyy.png") center/100% 100% no-repeat;
+}
+#qq{
+    background: url("../pic/qq.png") center/100% 100% no-repeat;
+}
+#kugou{
+    background: url("../pic/kg.png") center/100% 100% no-repeat;
+}
+#migu{
+    background: url("../pic/mg.png") center/100% 100% no-repeat;
+}
+#xiami{
+    background: url("../pic/moling1.png") center/100% 100% no-repeat;
+}
+
+#netease:hover{
+    background: url("../pic/wyy1.png") center/100% 100% no-repeat;
+}
+#qq:hover{
+    background: url("../pic/qq1.png") center/100% 100% no-repeat;
+}
+#kugou:hover{
+    background: url("../pic/kg1.png") center/100% 100% no-repeat;
+}
+#migu:hover{
+    background: url("../pic/mg1.png") center/100% 100% no-repeat;
+}
+#xiami:hover{
+    background: url("../pic/moling2.png") center/100% 100% no-repeat;
+}
+
+
+.source_link p{
+    margin-top: 50px;
+    color: #7f7f7f;
+
+}
+#qq p,
+#kugou p,
+#migu p,
+#xiami p{
+    margin-left: 10px;
+}
+
+.declare{
+    margin-top: 60px;
+    /*background-color: #31c37c;*/
+}
+
+
+
+.declare p{
+    text-align: center;
+    margin-top: 10px;
+    color: #7f7f7f;
+}

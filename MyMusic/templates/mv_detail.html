@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RAINBOW</title>
+    {% load static %}
+    {#  网页标题显示图标  #}
+    <link rel="icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    {# 收藏夹显示的图标 #}
+    <link rel="shortcut icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/mv_detail.css' %}">
+</head>
+<body>
+    <div id="top">
+        <a id="logo" href="{% url 'index' %}"></a>
+    </div>
+
+    <div class="nav"></div>
+
+    <div id="content_box">
+        <div id="content">
+            {% if result.0 %}
+                {% if mv_url.mv_url_1080 %}
+                    <video controls autoplay="autoplay">
+                      <source src="{{ mv_url.mv_url_1080 }}" type="video/mp4">
+                    </video>
+                {% elif mv_url.mv_url_720 %}
+                    <video controls autoplay="autoplay">
+                      <source src="{{ mv_url.mv_url_720 }}" type="video/mp4">
+                    </video>
+                {% elif mv_url.mv_url_480 %}
+                    <video controls autoplay="autoplay">
+                      <source src="{{ mv_url.mv_url_480 }}" type="video/mp4">
+                    </video>
+                {% elif mv_url.mv_url_240 %}
+                    <video controls autoplay="autoplay">
+                      <source src="{{ mv_url.mv_url_240 }}" type="video/mp4">
+                    </video>
+                {% endif %}
+
+            {% endif %}
+
+
+            <div class="des">
+                <p class="mv_name">{{ result.0.mv_name }}</p>
+                <p class="mv_author">by&nbsp;&nbsp;<span>{{ result.0.mv_author }}</span></p>
+                <p class="mv_play_count">总播放量：{{ result.0.playCount }}</p>
+                <p class="mv_publish_time">发布时间：{{ result.0.publishTime }}</p>
+                <p class="mv_des">{{ result.0.mv_desc }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <div class="data_source">
+            <p class="data_source_text">数据来源</p>
+
+            <div class="source_link">
+                <a id="netease" href="https://music.163.com/">
+                    <p>网易云</p>
+                </a>
+                <a id="qq" href="https://y.qq.com/">
+                    <p>QQ</p>
+                </a>
+                <a id="kugou" href="https://www.kugou.com/">
+                    <p>酷狗</p>
+                </a>
+                <a id="migu" href="http://www.migu.cn/">
+                    <p>咪咕</p>
+                </a>
+                <a id="xiami" href="https://music.mli.im/">
+                    <p>墨灵</p>
+                </a>
+            </div>
+        </div>
+        <div class="foot_title">下载客户端</div>
+        <div class="download">
+            <a id="pc" href="">
+                <p class="text">PC</p>
+            </a>
+            <a id="mac" href="">
+                <p class="text">MAC</p>
+            </a>
+            <a id="android" href="">
+                <p class="text">Android</p>
+            </a>
+            <a id="iphone" href="">
+                <p class="text">iPhone</p>
+            </a>
+        </div>
+
+        <div class="declare">
+            <p> About Us | 服务条款 | 用户服务协议 | 隐私政策 | 权利声明 | 广告服务 |  客服中心 | 网站导航</p>
+            <p>Copyright © 1998 - 2019 PF·Wang. All Rights Reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+{# 搜索 #}
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/search.css' %}">
+
+    {% if result.2 %}
+        <div class="music_module">
+            <div class="music_info">
+                <div class="img" style="background: url('{{ result.0 }}') center/100% 100% no-repeat"></div>
+                <span class="name_author">{{ result.1 }}</span>
+
+{#                <span class="album">专辑：{{ music_info.music_album }}</span>#}
+            </div>
+            <audio class="media" controls="controls">
+                <source src="{{ result.2 }}">
+            </audio>
+        </div>
+    {% else %}
+        <div class="tip">
+            <p class="tip1">{{ search_website }} - {{ search_name }} 存在版权问题</p>
+            <p class="tip2">请尝试在其他站点搜索</p>
+        </div>
+    {% endif %}
+
+
+
+{#    <div class="songlist" id="songlist all">#}
+{#        {% for music_info in music_infos %}#}
+{#            <div class="audio-wrapper">#}
+{#                <audio class="audio_mp3" >#}
+{#                    <source src="{{ music_info.music_url }}" type="audio/mp3">#}
+{#                    <source src="http://file.duzhai.net/Files/Audio/2017-08/af01ab05-d112-4ad7-9cff-2cfecced5bc6.mp3" type="audio/mp3">#}
+{#                </audio>#}
+{#                <div class="audio-left">#}
+{#                    <img id="audioPlayer" src="{% static 'pic/play.png' %}">#}
+{#                </div>#}
+{#                <div class="audio-right">#}
+{#                    <p style="max-width: 536px;">{{ music_info.music_name }}&nbsp;-&nbsp;{{ music_info.music_author }}</p>#}
+{#                    <div class="progress-bar-bg" id="progressBarBg">#}
+{#                        <span id="progressDot"></span>#}
+{#                        <div class="progress-bar" id="progressBar"></div>#}
+{#                    </div>#}
+{#                    <div class="audio-time">#}
+{#                        <span class="audio-length-current" id="audioCurTime">00:00</span>#}
+{#                        <span class="audio-length-total music_len" id="music_len"></span>#}
+{#                    </div>#}
+{#                </div>#}
+{#            </div>#}
+{#        {% endfor %}#}
+{% endblock %}

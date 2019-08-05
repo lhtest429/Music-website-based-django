@@ -1,0 +1,49 @@
+{# mv管理 #}
+{% extends 'administrator.html' %}
+
+{% block content %}
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'css/admin_mv.css' %}">
+
+    <ul class="all list" id="list all">
+        {% for foo in result %}
+            <div class="tag" id="tag">
+{#                <div class="mv_pic" style="background: url('{{ foo.mv_pic }}') center/100% 100% no-repeat"></div>#}
+                <img  class="mv_pic" src="{{ foo.mv_pic }}" alt="{{ foo.mv_id }}"/>
+                <p class="mv_id">MV ID：<span>{{ foo.mv_id }}</span></p>
+                <p class="mv_name">MV：<span>{{ foo.mv_name }}</span></p>
+                <p class="mv_author">作者：<span>{{ foo.mv_author }}</span></p>
+                <p class="mv_time">时间：<span>{{ foo.publishTime }}</span></p>
+
+                <form action="" method="post" id="option">
+                    {% csrf_token %}
+                    <input type="text" name="mv_id" value="{{ foo.mv_id  }}" style="display: none">
+                    <input type="submit" value="删除" name="delete">
+                </form>
+            </div>
+
+        {% endfor %}
+
+    </ul>
+
+     <div id="pages" class="text-center" >
+        <nav>
+            <ul class="pagination">
+                <li class="step-links">
+                    {% if result.has_previous %}
+                        <a class='active' href="?page={{ result.previous_page_number }}">上一页</a>
+                    {% endif %}
+
+                    <span class="current">
+                        &nbsp;&nbsp;第 {{ result.number }} 页&nbsp;&nbsp;
+                    </span>
+
+                    {% if result.has_next %}
+                        <a class='active' href="?page={{ result.next_page_number }}">下一页 </a>
+                        &nbsp;&nbsp;共 {{ result.paginator.num_pages }}页
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}

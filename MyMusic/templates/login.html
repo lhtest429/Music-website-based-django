@@ -1,0 +1,47 @@
+{# 登陆 #}
+{% extends 'login_base.html' %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+    {#  引入jquery  #}
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <!--引入自定义弹窗-->
+    <script src="{% static "js/pupopTip.js" %}"></script>
+
+    <script language="javascript" src="{% static 'js/login.js' %}" type="text/javascript" defer="defer"> </script>
+
+
+
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+        <table id="login_table">
+            <tr class="box1" id="box1">
+                <td>username:&nbsp;</td>
+                <td><input type="text" name="username" id="username" value="username or email"></td>
+            </tr>
+
+            <tr class="box2" id="box2">
+                <td>password:&nbsp;</td>
+                <td><input type="password" name="password" id="passwd" value="password"></td>
+{#                <td><input type="password" id="passwd" value="password" /></td>#}
+            </tr>
+            <tr class="box3">
+                <td><input type="submit" name="login" id="login_but" value="login"></td>
+{#                <td><a id="login" href="{% url 'index' %}">login</a></td>#}
+{#                <td><a id="login" href="">login</a></td>#}
+{#                <td><input type="button" name="register" id="passwd_but" value="register" onclick='window.open("register")' ></td>#}
+                <td><a id="register" href="{% url 'register' %}">register</a></td>
+            </tr>
+        </table>
+
+    </form>
+
+    {% if context %}
+        <script>
+            alert("{{ context }}")
+        </script>
+    {% endif %}
+
+{% endblock %}

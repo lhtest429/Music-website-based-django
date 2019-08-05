@@ -1,0 +1,69 @@
+{# 音乐管理 #}
+{% extends 'administrator.html' %}
+
+{% block content %}
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'css/admin_music.css' %}">
+         <script language="javascript" src="{% static 'js/modify.js' %}" type="text/javascript" defer="defer"> </script>
+
+
+        <ul class="all list" id="list all">
+            {% for foo in result %}
+            <div class="tag" id="tag">
+                <p class="music_id">音乐ID：<span>{{ foo.music_id }}</span></p>
+                <p class="music_name">歌名：<span>{{ foo.music_name }}</span></p>
+                <p class="music_author">作者：<span>{{ foo.music_author }}</span></p>
+                <p class="music_album">专辑：<span>{{ foo.music_album }}</span></p>
+
+                <form action="" method="post" id="option">
+                    {% csrf_token %}
+                    <input type="text" name="m_id" value="{{ foo.music_id  }}" style="display: none">
+                    <input type="submit" value="删除" name="delete">
+                </form>
+{#                <input type="submit" value="修改" name="modify" id="modfy" onclick="click()">#}
+
+
+
+            </div>
+            <div id="modfy_form_box">
+                <form action="" method="get" id="modfy_box">
+                    <p>歌名: <input type="text" name="m_name" value="{{ foo.music_name }}"></p>
+                    <p>作者: <input type="text" name="m_author" value="{{ foo.music_author }}"></p>
+                    <p>专辑: <input type="text" name="m_album" value="{{ foo.music_album }}"></p>
+                    <p><input type="submit" name="m_sub" class="m_sub" value="提交"></p>
+                </form>
+            </div>
+
+    {% endfor %}
+
+    </ul>
+
+     <div id="pages" class="text-center" >
+        <nav>
+            <ul class="pagination">
+                <li class="step-links">
+                    {% if result.has_previous %}
+                        <a class='active' href="?page={{ result.previous_page_number }}">上一页</a>
+                    {% endif %}
+
+                    <span class="current">
+                        &nbsp;&nbsp;第 {{ result.number }} 页&nbsp;&nbsp;
+                    </span>
+
+                    {% if result.has_next %}
+                        <a class='active' href="?page={{ result.next_page_number }}">下一页 </a>
+                        &nbsp;&nbsp;共 {{ result.paginator.num_pages }}页
+                    {% endif %}
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+{#    <script>#}
+{#        function click() {#}
+{#            var modfy_form_box = document.getElementById('modfy_form_box');#}
+{#            modfy_form_box.style.display = "block";#}
+{#        }#}
+{#    </script>#}
+
+{% endblock %}

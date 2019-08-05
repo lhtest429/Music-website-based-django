@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAINBOW</title>
+    {#  网页标题显示图标  #}
+    <link rel="icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    {# 收藏夹显示的图标 #}
+    <link rel="shortcut icon" href="{% static 'pic/rainbow_icon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/login_base.css' %}">
+</head>
+<body>
+    <div id="text">
+{#        <p id="title">Login</p>#}
+        <p id="title">WP · Wang</p>
+        <p>Please enter your username and password to log in . <br/><br/>Thank you for visiting my website !</p>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+
+    <div id="declear">
+        <p>Copyright &nbsp;© &nbsp;2018&nbsp; Your&nbsp; Company&nbsp; - &nbsp;Design&nbsp; : &nbsp;
+            <a href="{% url 'admin' %}">PF · Wang</a>
+            {#  跳转到管理员界面  #}
+        </p>
+    </div>
+</body>
+</html>
